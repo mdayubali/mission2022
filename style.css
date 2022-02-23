@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  
+}
+body{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-silver{
+    background: #f5f6fa;
+}
+.bg-light{
+    background: #dcdde1;
+}
+.bg-soda{
+    background: silver;
+}
+header{
+    padding: 80px 0px 0px;
+}
+section{
+    padding: 80px 0px 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    display: flex;
+}
+.col-one-half{
+    width: 48%;
+    margin: 2%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col-one-third{
+    width: 31%;
+    padding: 2%;
+    display: block;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+.text-white{
+    color: white;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    background-color: brown;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.col-one-half .content h2.border-left{
+    border-left: 3px solid pink;
+    padding: 0px 20px;
+  
+}
+.col-one-half .content h2{
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 40px; 
+}
+span{
+    color: saddlebrown
+}
+p.small{
+    margin-top: 15px;
+}
+.heading{
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+.portfolio-img img{
+    width: 350px;
+    height: 350px;
+    display: block;
+    margin: 0px auto;
+    margin-top: -60px;
+}
+.col-one-third .image img{
+    height: 120px;
+    width: 120px;
+    display: flex;
+}
+
+.project-image img{
+    width: 90%;
+    height: 50vh;
+}
+/* Contact area */
+.form-group{
+    margin-bottom: 10px;
+}
+.form-group:last-child{
+    display: flex;
+    justify-content: end;
+}
+label{
+    font-weight: 500;
+}
+.form-control{
+    width: 100%;
+}
+
+input[type='text'],input[type='email']{
+    height: 30px;
+    padding: 15px;
+    margin-top: 5px;
+    border:1px solid gray;
+    border-radius: 5px;
+}
+textarea{
+    padding: 15px;
+}
+input[type='submit']{
+    padding: 10px 40px;
+    background: green;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    font-size: 22px;
+}
+/* Footer  */
+footer{
+    margin-top: 60px;
+    background: black;
+    padding: 15px;
+    color: white;
+}
+footer h2,footer p{
+    text-align: center;
+}
+footer p{
+    font-size: 18px;
+    margin-top: 15px;
+}
